@@ -1,0 +1,19 @@
+{
+  "name": "youtube-platform",
+  "version": "0.0.1",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/aveiga/youtube-platform.git"
+  },
+  "author": "André Branco Veiga",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/aveiga/youtube-platform/issues"
+  },
+  "homepage": "https://github.com/aveiga/youtube-platform#readme"
+}
