@@ -16,5 +16,6 @@ export class AppController {
   async getNotifications(@Payload() data: any, @Ctx() context: RmqContext) {
     // console.log(`Pattern: ${context.getPattern()}`);
     console.log(data);
+    this.appService.persistHistoryEntry(data);
   }
 }
